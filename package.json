@@ -1,0 +1,49 @@
+{
+  "name": "coinpusher",
+  "version": "1.0.0",
+  "description": "real-time cryptocurrency course prediction with charts front-end",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "explore": "node explore.js",
+    "bitcoin": "DEBUG=coinpusher:* node index.js bitcoin",
+    "ethereum": "DEBUG=coinpusher:* node index.js ethereum",
+    "litecoin": "DEBUG=coinpusher:* node index.js litecoin"
+  },
+  "author": "Christian Fröhlingsdorf <chris@5cf.de>",
+  "license": "MPL-2.0",
+  "dependencies": {
+    "async": "^2.5.0",
+    "bluebird": "^3.5.0",
+    "debug": "^3.0.1",
+    "express": "^4.15.4",
+    "moment": "^2.18.1",
+    "neataptic": "^1.4.4",
+    "node-bitstamp": "^1.1.1",
+    "synaptic": "^1.1.2",
+    "uuid": "^3.1.0",
+    "uws": "^8.14.1"
+  },
+  "keywords": [
+    "real-time",
+    "cryptocurrency",
+    "bitstamp",
+    "neuronal",
+    "network",
+    "lstm",
+    "prediction",
+    "charts",
+    "live",
+    "trades",
+    "trade",
+    "bot"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krystianity/coinpusher.git"
+  },
+  "bugs": {
+    "url": "https://github.com/krystianity/coinpusher/issues"
+  },
+  "homepage": "https://github.com/krystianity/coinpusher#readme"
+}
